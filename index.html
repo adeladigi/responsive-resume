@@ -19,15 +19,12 @@
         body {
             margin: 0px;
             padding: 0px;
-        }
-
-        a {
-            text-decoration: none;
+            background-color: #86C6F4;
         }
      
 
         .resume-container {
-            border: 1px solid #000;
+            background-color: #fff;
         }
 
         .nav-div {
@@ -81,6 +78,159 @@
             margin: 25px;
         }
 
+        .experience-div {
+            font-family: 'Lexend Deca', sans-serif;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .experience-discription-div {
+            display: none;
+        }
+
+        .project-discription-div {
+            margin: 25px;
+        }
+
+        .second-div {
+            margin: 0px;
+            padding: 0px;
+        }
+
+
+        @media (min-width: 768px){
+
+            body {
+                display: flex;
+                justify-content: center;
+            }
+
+            .resume-container {
+            
+            max-width: 700px;
+           }
+
+
+            .nav-div {
+            display: flex;
+            flex-direction: row;
+            }
+             
+
+            .name-banner {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 20px;
+            border-bottom: none;
+            margin: 25px;
+            border-right: 1px solid #D1D1D1;
+            min-width: 300px;
+            }
+
+            .name-banner h2 {
+             margin: 1px;
+             color: #D1D1D1;
+             font-size: 40px;
+             font-family: 'Lexend Deca', sans-serif;
+             margin: 1px;
+            }
+
+            .name-banner h1 {
+            font-size: 50px;
+            font-family: 'Coda', cursive;
+            margin: 1px;
+            }
+
+            .contact-div {
+            /* border: 1px solid #EF6D6D; */
+            padding: 5px;
+            border-bottom: 1px solid #D1D1D1;
+            margin: 0px;
+        }
+
+        .about-me-div {
+            /* border: 1px solid #00B4D8; */
+            padding: 5px;
+            border-bottom: none;
+            margin: 0px;
+        }
+
+            
+
+        }
+
+
+        @media (min-width: 1024px){
+
+            body {
+                display: flex;
+                justify-content: center;
+            }
+
+            .resume-container {
+            
+            max-width: 800px;
+           }
+
+            .nav-div {
+            display: flex;
+            flex-direction: row;
+            }
+             
+
+            .name-banner {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-bottom: none;
+            margin: 0px;
+            min-width: 450px;
+            padding: 0px;
+            border: none;
+            }
+
+            .name-banner h2 {
+             margin: 1px;
+             color: #D1D1D1;
+             font-size: 60px;
+             font-family: 'Lexend Deca', sans-serif;
+             margin-left: 20px;
+            }
+
+            .name-banner h1 {
+            font-size: 70px;
+            font-family: 'Coda', cursive;
+            margin-left: 20px;
+            }
+
+
+            /*    */
+
+            .nav-wrapper-div {
+            display: flex;
+            flex-direction: column;
+            color:#D1D1D1;
+            font-family: 'Lexend Deca', sans-serif;
+        }
+
+        .contact-div {
+            /* border: 1px solid #EF6D6D; */
+            padding: 5px;
+            border-bottom: 1px solid #D1D1D1;
+            margin: 0px;
+        }
+
+        .about-me-div {
+            /* border: 1px solid #00B4D8; */
+            padding: 5px;
+            margin: 0px;
+        }
+
+
+        }
+
     </style>
 
 </head>
@@ -121,6 +271,58 @@
 
         </div>
         <!-- end of nav-div -->
+
+        <!-- start of second-div -->
+        <div class="second-div">
+            
+            <!-- start of experience -->
+            <div class="experience-div">
+                <div class="experience-discription-div">
+                    <h2>EXPERIENCE</h2>
+                    <h3>SPELLING APP :</h3>
+                    <h3>FAVORITE MOVIES WEBSITE :</h3>
+                </div>
+                <div class="project-discription-div">
+                     
+                    <h3>SPELLING APP : <a href="https://pure-tundra-44681.herokuapp.com/" >Link</a></h3>
+                    <p>
+                        I wanted to create a Web App that would allow people who want to improve there spelling
+                        skills do so in the most convenient way. So pogiee.com is a spelling training
+                        tool in the form of a game. Technology's used were Node js, mongoDB, Stripe
+                        and node mailer.
+                        
+                    </p>
+                     
+                    <h3>FAVORITE MOVIES WEBSITE : <a href="https://stark-island-14318.herokuapp.com/" >Link</a></h3>
+                    <p>
+                         I wanted to create a website using React were i could share my favorite movies
+                        and recommendations with friends and family.
+                    </p>
+
+
+                </div>
+
+                <div class="pro-skills">
+
+                </div>
+
+            </div>
+            <!-- end of experience -->
+
+            <div class="pro-skills-div">
+                
+            </div>
+
+            <div class="pre-skills-div">
+                
+            </div>
+
+        </div>
+
+        <!-- start of second-div -->
+
+
+
 
     </div>
     <!-- end of resume-container -->
