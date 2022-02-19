@@ -163,6 +163,8 @@
             top: 12px;
         }
 
+        /* start pro-skills levels */
+
         #html-level {
             width: 70%;
             height: 25px;
@@ -198,6 +200,46 @@
             height: 25px;
             background-color: #000;
         }
+
+        /* end pro-skills levels */
+
+        .pre-skills-div {
+            background-color: #F9D371;
+            max-width: 375px;
+            min-height: 431px;
+            padding: 20px;
+        }
+
+        .pre-skills-div h3{
+            font-family: 'Coda', cursive;
+        }
+ 
+        /* start pre-skills levels */
+        #com-level {
+            width: 90%;
+            height: 25px;
+            background-color: #000;
+        }
+
+        #team-level {
+            width: 80%;
+            height: 25px;
+            background-color: #000;
+        }
+
+        #solving-level {
+            width: 80%;
+            height: 25px;
+            background-color: #000;
+        }
+
+        #mo-level {
+            width: 95%;
+            height: 25px;
+            background-color: #000;
+        }
+
+        /* end pre-skills levels */
 
 
         @media (min-width: 768px){
@@ -245,6 +287,53 @@
             padding: 5px;
             border-bottom: none;
             margin: 0px;
+        }
+
+        .skill-wrapper {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .pro-skills-div {
+            background-color: #548CFF;
+            min-width: 360px;
+            padding: 20px;
+        }
+
+        .pre-skills-div {
+            background-color: #F9D371;
+            min-width: 360px;
+            min-height: 280px;
+            padding: 20px;
+        }
+
+        .pro-skills-div h3 {
+            font-weight: bold;
+            font-family: 'Coda', cursive;
+            font-size: 15px;
+        }
+
+        .pre-skills-div h3 {
+            font-weight: bold;
+            font-family: 'Coda', cursive; 
+            font-size: 15px;  
+        }
+
+        .pro-inner-div h3 {
+            font-size: 10px;
+        }
+
+        .pr3-inner-div h3 {
+            font-size: 10px;
+        }
+
+
+        .pro-inner-div {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            /* border: 1px solid pink; */
+            max-width: 220px;
         }
 
             
@@ -420,7 +509,7 @@
 
             </div>
             <!-- end of experience -->
-
+        <div class="skill-wrapper" >
             <div class="pro-skills-div">
                 <h3>PRO SKILLS</h3>
                 <ul>
@@ -478,10 +567,50 @@
             </div>
 
             <div class="pre-skills-div">
+                <h3>PRE SKILLS</h3>
+                <ul>
+                    <li>
+                        <div class="pro-inner-div">
+                            <h3>Creativity</h3>
+                            <div class="skill-chart">
+                               <div id="com-level"></div>
+                            </div>
+                        </div>
+                        
+                    </li>
+                    <li>
+                        <div class="pro-inner-div">
+                            <h3>Team Work</h3>
+                            <div class="skill-chart">
+                                <div id="team-level"></div>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pro-inner-div">
+                            <h3>Problem Solving</h3>
+                            <div class="skill-chart">
+                                <div id="solving-level"></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pro-inner-div">
+                            <h3>Motivation</h3>
+                            <div class="skill-chart">
+                                <div id="mo-level"></div>
+                            </div>
+                        </div>
+                    </li>
+                   
+                </ul>
                 
             </div>
 
         </div>
+
+    </div>
 
         <!-- start of second-div -->
 
