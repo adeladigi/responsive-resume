@@ -96,6 +96,10 @@
             margin: 25px;
         }
 
+        .about-me-div h3 {
+            font-family: 'Coda', cursive;
+        }
+
         .experience-div {
             font-family: 'Lexend Deca', sans-serif;
             display: flex;
@@ -114,6 +118,7 @@
         .project-discription-div h3 {
             color: #548CFF;
             font-weight: bold;
+            font-family: 'Coda', cursive;
         }
 
         .project-discription-div a {
@@ -127,13 +132,71 @@
         }
 
         .pro-skills-div {
-            font-family: 'Lexend Deca', sans-serif;
             background-color: #548CFF;
-            padding: 25px;
+            max-width: 375px;
+            padding: 20px;
         }
 
         .pro-skills-div h3 {
             font-weight: bold;
+            font-family: 'Coda', cursive;
+        }
+
+
+        .pro-inner-div {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            /* border: 1px solid pink; */
+            min-width: 250px;
+        }
+
+        .pro-inner-div h3 {
+            font-size: 15px;
+        }
+
+        .skill-chart {
+            min-width: 150px;
+            max-height: 25px;
+            border: 2px solid #000;
+            position: relative;
+            top: 12px;
+        }
+
+        #html-level {
+            width: 70%;
+            height: 25px;
+            background-color: #000;
+        }
+
+        #css-level {
+            width: 80%;
+            height: 25px;
+            background-color: #000;
+        }
+
+        #js-level {
+            width: 90%;
+            height: 25px;
+            background-color: #000;
+        }
+
+        #react-level {
+            width: 60%;
+            height: 25px;
+            background-color: #000;
+        }
+
+        #nodeJS-level {
+            width: 60%;
+            height: 25px;
+            background-color: #000;
+        }
+
+        #mongoDB-level {
+            width: 50%;
+            height: 25px;
+            background-color: #000;
         }
 
 
@@ -360,6 +423,58 @@
 
             <div class="pro-skills-div">
                 <h3>PRO SKILLS</h3>
+                <ul>
+                    <li>
+                        <div class="pro-inner-div">
+                            <h3>HTML</h3>
+                            <div class="skill-chart">
+                               <div id="html-level"></div>
+                            </div>
+                        </div>
+                        
+                    </li>
+                    <li>
+                        <div class="pro-inner-div">
+                            <h3>CSS</h3>
+                            <div class="skill-chart">
+                                <div id="css-level"></div>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pro-inner-div">
+                            <h3>JavaScript</h3>
+                            <div class="skill-chart">
+                                <div id="js-level"></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pro-inner-div">
+                            <h3>React</h3>
+                            <div class="skill-chart">
+                                <div id="react-level"></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pro-inner-div">
+                            <h3>Node JS</h3>
+                            <div class="skill-chart">
+                                <div id="nodeJS-level"></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="pro-inner-div">
+                            <h3>MongoDB</h3>
+                            <div class="skill-chart">
+                                <div id="mongoDB-level"></div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
 
             <div class="pre-skills-div">
