@@ -165,40 +165,33 @@
 
         /* start pro-skills levels */
 
-        #html-level {
-            width: 70%;
+        .color-in {
             height: 25px;
             background-color: #000;
+        }
+
+        #html-level {
+            width: 70%;
         }
 
         #css-level {
             width: 80%;
-            height: 25px;
-            background-color: #000;
         }
 
         #js-level {
             width: 90%;
-            height: 25px;
-            background-color: #000;
         }
 
         #react-level {
             width: 60%;
-            height: 25px;
-            background-color: #000;
         }
 
         #nodeJS-level {
             width: 60%;
-            height: 25px;
-            background-color: #000;
         }
 
         #mongoDB-level {
             width: 50%;
-            height: 25px;
-            background-color: #000;
         }
 
         /* end pro-skills levels */
@@ -217,26 +210,18 @@
         /* start pre-skills levels */
         #com-level {
             width: 90%;
-            height: 25px;
-            background-color: #000;
         }
 
         #team-level {
             width: 80%;
-            height: 25px;
-            background-color: #000;
         }
 
         #solving-level {
             width: 80%;
-            height: 25px;
-            background-color: #000;
         }
 
         #mo-level {
             width: 95%;
-            height: 25px;
-            background-color: #000;
         }
 
         /* end pre-skills levels */
@@ -409,6 +394,58 @@
             margin: 0px;
         }
 
+        .second-div {
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .skill-wrapper {
+            display: flex;
+            flex-direction: column;
+        }
+         
+
+        .pro-skills-div {
+            background-color: #548CFF;
+            min-width: 270px;
+            padding: 20px;
+            max-height: 300px;
+            padding: 10px;
+        }
+
+        .pre-skills-div {
+            background-color: #F9D371;
+            min-width: 270px;
+            max-height: 200px;
+            padding: 10px;
+        }
+
+        .skill-chart {
+            min-width: 150px;
+            max-height: 15px;
+            position: relative;
+            top: 6px;
+        }
+
+
+     /* start pro-skills levels */
+        .color-in {
+            height: 15px;
+            background-color: #000;
+        }
+
+    /* end pro-skills levels */
+
+        .project-discription-div {
+            margin: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+
 
         }
 
@@ -486,7 +523,7 @@
                     <h3>FAVORITE MOVIES WEBSITE :</h3>
                 </div>
                 <div class="project-discription-div">
-                     
+                <div>  
                     <h3>SPELLING APP <a href="https://pure-tundra-44681.herokuapp.com/" >[ Link ]</a></h3>
                     <p>
                         I wanted to create a Web App that would allow people who want to improve there spelling
@@ -495,13 +532,14 @@
                         and node mailer.
                         
                     </p>
-                     
+                </div>
+                <div>
                     <h3>FAVORITE MOVIES WEBSITE <a href="https://stark-island-14318.herokuapp.com/" > [ Link ]</a></h3>
                     <p>
                          I wanted to create a website using React were i could share my favorite movies
                         and recommendations with friends and family.
                     </p>
-
+                </div>
 
                 </div>
 
@@ -517,7 +555,7 @@
                         <div class="pro-inner-div">
                             <h3>HTML</h3>
                             <div class="skill-chart">
-                               <div id="html-level"></div>
+                               <div id="html-level" class="color-in"></div>
                             </div>
                         </div>
                         
@@ -526,7 +564,7 @@
                         <div class="pro-inner-div">
                             <h3>CSS</h3>
                             <div class="skill-chart">
-                                <div id="css-level"></div>
+                                <div id="css-level" class="color-in" ></div>
                             </div>
 
                         </div>
@@ -535,7 +573,7 @@
                         <div class="pro-inner-div">
                             <h3>JavaScript</h3>
                             <div class="skill-chart">
-                                <div id="js-level"></div>
+                                <div id="js-level" class="color-in" ></div>
                             </div>
                         </div>
                     </li>
@@ -543,7 +581,7 @@
                         <div class="pro-inner-div">
                             <h3>React</h3>
                             <div class="skill-chart">
-                                <div id="react-level"></div>
+                                <div id="react-level" class="color-in" ></div>
                             </div>
                         </div>
                     </li>
@@ -551,7 +589,7 @@
                         <div class="pro-inner-div">
                             <h3>Node JS</h3>
                             <div class="skill-chart">
-                                <div id="nodeJS-level"></div>
+                                <div id="nodeJS-level" class="color-in" ></div>
                             </div>
                         </div>
                     </li>
@@ -559,7 +597,7 @@
                         <div class="pro-inner-div">
                             <h3>MongoDB</h3>
                             <div class="skill-chart">
-                                <div id="mongoDB-level"></div>
+                                <div id="mongoDB-level" class="color-in" ></div>
                             </div>
                         </div>
                     </li>
@@ -573,7 +611,7 @@
                         <div class="pro-inner-div">
                             <h3>Creativity</h3>
                             <div class="skill-chart">
-                               <div id="com-level"></div>
+                               <div id="com-level" class="color-in" ></div>
                             </div>
                         </div>
                         
@@ -582,7 +620,7 @@
                         <div class="pro-inner-div">
                             <h3>Team Work</h3>
                             <div class="skill-chart">
-                                <div id="team-level"></div>
+                                <div id="team-level" class="color-in"></div>
                             </div>
 
                         </div>
@@ -591,7 +629,7 @@
                         <div class="pro-inner-div">
                             <h3>Problem Solving</h3>
                             <div class="skill-chart">
-                                <div id="solving-level"></div>
+                                <div id="solving-level" class="color-in"></div>
                             </div>
                         </div>
                     </li>
@@ -599,7 +637,7 @@
                         <div class="pro-inner-div">
                             <h3>Motivation</h3>
                             <div class="skill-chart">
-                                <div id="mo-level"></div>
+                                <div id="mo-level" class="color-in"></div>
                             </div>
                         </div>
                     </li>
