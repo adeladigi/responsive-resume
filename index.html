@@ -311,7 +311,45 @@
         }
 
         .langauge-div {
-           background-color: #D1D1D1;
+           background-color: #F7F7F7;
+           font-family: 'Coda', cursive;
+        }
+
+        .langauge-content-div ul {
+            list-style-type: none;
+        }
+
+        .langauge-content-div ul h3 {
+            font-size: 14px;
+        }
+
+        .langauge-content-div li {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            max-width: 300px;
+        }
+
+        .hobby-chart {
+            min-width: 150px;
+            max-width: 200px;
+            max-height: 15px;
+            border: 2px solid #2C3333;
+            position: relative;
+            top: 15px;
+        }
+
+        .color-in2 {
+            height: 15px;
+            background-color: #2C3333;
+        }
+
+        #english-level {
+           width: 85%;
+        }
+
+        #spanish-level {
+          width: 60%;
         }
 
         /* end hobbys / language */
@@ -475,7 +513,10 @@
             min-width: 228px;
         }
 
-            
+        .langauge-content-div h3 {
+            font-family: 'Coda', cursive;
+        }
+ 
 
         }
 
@@ -654,6 +695,18 @@
 
         .langauge-content-div {
             min-width: 196px;
+        }
+
+        .langauge-content-div h3 {
+            font-family: 'Coda', cursive;
+        }
+
+        .langauge-content-div ul {
+            list-style-type: none;
+        }
+
+        .langauge-content-div ul h3 {
+            font-size: 12px;
         }
 
 
@@ -918,7 +971,20 @@
                </div>
 
                <div class="langauge-content-div">
-
+                   <ul>
+                       <li>
+                         <h3>English</h3>
+                         <div class="hobby-chart">
+                            <div id="english-level" class="color-in2"></div>
+                        </div>
+                       </li>
+                       <li>
+                         <h3>Spanish</h3>
+                         <div class="hobby-chart">
+                            <div id="spanish-level" class="color-in2"></div>
+                        </div>
+                       </li>
+                       </ul>
                </div>
                 
             </div>
