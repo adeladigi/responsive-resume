@@ -271,7 +271,50 @@
             color: #2C3333;
         }
 
+
         /* education div */
+
+
+
+         /* start hobbys / language */
+
+
+        .hobby-title-div {
+            font-family: 'Coda', cursive;
+            margin-left: 30px;
+        }
+
+        .hobby-content-div {
+          margin-right: 25px;
+          margin-left: 25px;
+          border-top:1px solid #2C3333;
+        }
+
+        .hobby-content-div h4{
+            font-family: 'Coda', cursive;
+            margin-left: 20px;
+        }
+
+        .hobby-content-div ul{
+            list-style-type: none;
+        }
+
+        .hobby-content-div li {
+          display: flex;
+          flex-direction: row;  
+        }
+
+        .hobby-icons {
+            height: 30px;
+            position: relative;
+            top: 17px;
+        }
+
+        .langauge-div {
+           background-color: #D1D1D1;
+        }
+
+        /* end hobbys / language */
 
 
         @media (min-width: 768px){
@@ -402,6 +445,35 @@
         }
 
         /* education div */
+
+
+        .hobby-langauge-div {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .hobby-content-div ul{
+           display: flex;
+           flex-direction: row;
+           min-width: 450px;
+        }
+
+        .hobby-content-div li {
+         margin-right: 5%;
+         display: flex;
+         flex-direction: column;
+        }
+
+        .hobby-icons {
+            width: 28px;
+            position: relative;
+            top: 0px;
+            left: 22px;
+        }
+        
+        .langauge-content-div {
+            min-width: 228px;
+        }
 
             
 
@@ -578,6 +650,11 @@
         }
 
         /* education div */
+
+
+        .langauge-content-div {
+            min-width: 196px;
+        }
 
 
 
@@ -802,6 +879,53 @@
          </div>
 
         <!-- ens of education-div -->
+
+        <!-- start hobbys/ langauge skill -->
+        <div class="hobby-langauge-div">
+            <div class="hobby-div">
+                <div class="hobby-title-div">
+                     <h3>HOBBYS</h3>
+                </div>
+                <div class="hobby-content-div">
+                      
+                      <ul>
+                          <li>
+                            <img class="hobby-icons" src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/32/000000/external-gym-weight-health-dreamstale-lineal-dreamstale.png"/>
+                              <h4>Gym</h4>
+                          </li>
+                          <li>
+                            <img class="hobby-icons" src="https://img.icons8.com/48/000000/code.png"/>
+                              <h4>LeetCode</h4>
+                          </li>
+                          <li>
+                            <img class="hobby-icons" src="https://img.icons8.com/ios/50/000000/book.png"/>
+                              <h4>Reading</h4>
+                          </li>
+                          <li>
+                            <img class="hobby-icons" src="https://img.icons8.com/ios-glyphs/30/000000/judo.png"/>
+                              <h4>MMA</h4>
+                          </li>
+                      </ul>
+
+ 
+                </div>
+
+            </div>
+
+            <div class="langauge-div">
+                <div class="hobby-title-div">
+                    <h3>LANGAUGES</h3>
+               </div>
+
+               <div class="langauge-content-div">
+
+               </div>
+                
+            </div>
+
+        </div>
+
+        <!-- end hobbys/ langauge skill -->
 
 
 
